@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    
+
+    
+
+        <header class="header  row row-cols-1 row-cols-sm-2 " >
+            <div class="header-log col">
+                <img src="../img/descarga.jpg" alt="logo" class=" logo ">
+            </div>
+            
+            <ul  class="information col text-light text-center p-3 ">
+               <li>direccion: av pacasmayo 12</li>
+               <li>celular-fijo: 956603523</li>
+               <li>telefono:45369677</li>
+            </ul>
+        </header>
+        <nav class="navbar navbar-expand-md bg-danger text-center ">
+            <div class="container-fluid">
+              
+              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse   " id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                    <a class="nav-link active" aria-current="page" href="../inicio.html">incio</a>
+                    <a class="nav-link" href="./menu.html">menu</a>
+                    <a class="nav-link" href="./nosotros.html"> nosotros</a>
+                    <a class="nav-link" href="./galeria.html"> galerias</a>
+                    <a class="nav-link" href="./contacto.html">contacto</a> 
+                </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+    <div class="img_hero5 d-flex  justify-content-center align-items-center">
+        <h1>Contactenos</h1>
+    </div>
+
+    <section class="section_contact row">
+        <div class="accordion col" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <Table>Telefono</Table>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>+01 123 456 789</strong> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Celular
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>+91 123 789 456</strong> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Direccion
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong> av pacasmayo 12.</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+            
+            <form action="/formulario" method="post" class="formulario_contacto col">
+                <label for="nombre">Nombre : <input type="text" name="nombre" id="nombre" placeholder="nombre" ></label>
+               
+                
+                <label for="correo">correo : <input type="email" name="hotmail" id="correo" placeholder="@hotmal.com" ></label>
+                
+                
+                <label for="telefono"> Telefono : <input type="number" name="telefono" id="telefono" placeholder="nombre" ></label>
+                
+            
+                <label for="comentario">comentario :</label>
+                <textarea name="texto" id="comentario" cols="30" rows="10" placeholder="Escriba su comentario"></textarea>
+                
+                
+                
+                <button class="button" type="submit">Enviar</button>
+            </form>
+
+        
+    </section> 
+
+    
+
+    <footer class="footer">
+        <div class="footer_principal row row-col-md-1 text-center ">
+        <div class="pie_pagina col-12 col-md-4  ">
+            <h3 >Nosotros</h3>
+            <p class="text-md-start">Restaurante AJI Y SABOR trabaja día a día con productos frescos y de calidad para que usted disfrute las mejores preparaciones típicas de la cocina peruana,</p>
+        </div>
+        
+        <div class="pie_pagina col-12 col-md-4 ">
+            <h3>horario</h3>
+            <ul class="text-md-start">
+                <li>Lunes a Sabado: 12:00 a 23:00</li>
+                <li>Domingo : 12:00 a 17:00</li>
+            </ul>
+        </div>
+        
+        <div class="pie_pagina col-12 col-md-4 ">
+            <h3>Siguenos</h3>
+            <ul class="text-md-start">
+                <li><a href="">Facebook</a></li>
+                <li><a href="">twitter</a></li>
+                <li><a href="">linkedin</a></li>
+                <li><a href="">Instagram</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    </footer>
+    <div class="copyright">
+        <h6>Copyright © 2022 Peru taco bar Tema: Flash por ThemeGrill. 
+        </h6>
+        
+    </div>
+    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+</body>
+</html>

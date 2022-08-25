@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+ .header{
+    width: 100%;
+    background-color: black;
+    margin: 0;
+ }
+
+.logo{
+    height: 160px;
+    width: 160px;
+    display: block;
+    margin: 0 auto;
+}
+.information{
+
+    line-height: 30px;
+    list-style: none;
+    margin: auto;
+}
+
+.img_article{
+    height: 200px;
+}
+
+.navbar-toggler{
+    
+    background-color: rgb(241, 15, 15);
+    margin: 0 auto;
+    width: 150px;
+
+}
+.navbar{
+    position: sticky;
+    width: 100%;
+    top: 0.5px;
+}
+
+.collapse a{
+    display: inline-block;
+    color: white;
+}
+/* xxxxxxxxxx modificable xxxxxxxxxxxx */
+
+
+.bienvenida{
+    height: 20vh;
+    background-color: rgb(146, 141, 141);
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.footer{
+    width: 100%;
+    background-color: rgb(211, 205, 205);
+    padding: 30px 30px;
+    width: 100%;
+}
+
+.copyright {
+    
+    width: 100%;
+    font-size: 2px;
+    background-color: rgb(53, 51, 51);
+    line-height: 20px;
+    color: white;
+    text-align: center;
+}
+
+.pie_pagina h3,p,ul{
+    
+    line-height: 30px;
+    padding-bottom: 20px;
+    
+}
+.pie_pagina ul{
+    padding: 0;
+    list-style: none;
+}
+
+.text-md-start a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.text-md-start li a:hover {
+    color: white;
+}
+
+/* xxxxxxxxx comienza el contenido inicio */
+.img_hero{
+    width: 100%;
+    height: 30vh;
+    background-image: url(../img/png-transparent-salad-with-rice-and-grilled-meats-on-plates-and-saucers-peruvian-cuisine-full-breakfast-buffet-catering-food-menu-recipe-breakfast-chi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.article_content{
+    margin: 0;
+   height: 90vh;
+    width: 100%;
+   
+}
+
+.img_article{
+
+    height: 30vh;
+     object-fit: cover;
+}
+
+.article_content_1 ,.article_content_2{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article_content_2 p{
+    padding: 0 10px;
+}
+/* xxxxxxxx menu de comida xxxxxxxxx */
+.img_hero2{
+    width: 100%;
+    height: 30vh;
+    background-image: url(../img/Guía-de-la-Mejor-Comida-Peruana.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.especiales{
+    height: 85vh;
+    margin: 20px 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.food-1{
+    
+    padding: 0;
+    
+}
+
+.food_labels{
+    margin-top: 10px;
+    padding: 0;
+}
+
+/* xxxxxx nosotros xxxxxx */
+
+.img_hero3{
+    width: 100%;
+    height: 30vh;
+    background-image: url(../img/cocina_peruana_andina_a.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.img_profile{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.article_team{
+    padding: 0;
+}
+
+.article_team p,h3 {
+    margin: 15px auto;
+    width: 60%;
+}
+
+/* xxxxxxxxxx galerias img    */
+
+.img_hero4{
+    width: 100%;
+    height: 30vh;
+    background-image: url(../img/ca-creative-8_Tlng54n8Y-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+/* xxxxxxxx contacto xxxx*/
+
+.img_hero5{
+    width: 100%;
+    height: 30vh;
+    background-image: url(../img/giorgio-trovato-_geAgtjqLzY-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+@media (min-width:960px){
+
+    .article_content{
+        height: 70vh;
+    }
+
+    .article_content_1 ,.article_content_2{
+        
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    
+}
