@@ -36,6 +36,7 @@
 }
 .navbar{
     position: sticky;
+    z-index: 100;
     width: 100%;
     top: 0.5px;
 }
@@ -77,24 +78,24 @@
     text-align: center;
 }
 
-.pie_pagina h3,p,ul{
+.pie_pagina {
     
     line-height: 30px;
     padding-bottom: 20px;
     
 }
-.pie_pagina ul{
+.text-md-start{
     padding: 0;
     list-style: none;
 }
 
-.text-md-start a {
+.link_f {
     text-decoration: none;
     color: black;
 
 }
 
-.text-md-start li a:hover {
+.link_f:hover {
     color: white;
 }
 
@@ -114,13 +115,16 @@
     margin: 0;
    height: 90vh;
     width: 100%;
+
    
 }
 
 .img_article{
 
     height: 30vh;
-     object-fit: cover;
+    width: 80%;
+    object-fit: cover;
+    
 }
 
 .article_content_1 ,.article_content_2{
@@ -131,7 +135,7 @@
 }
 
 .article_content_2 p{
-    padding: 0 10px;
+    width: 80%;
 }
 /* xxxxxxxx menu de comida xxxxxxxxx */
 .img_hero2{
@@ -188,7 +192,7 @@
     padding: 0;
 }
 
-.article_team p,h3 {
+.nombre , .parrafo_article  {
     margin: 15px auto;
     width: 60%;
 }
@@ -216,15 +220,17 @@
     background-size: cover;
     color: white;
 
+
 }
+
+
 @media (min-width:960px){
 
     .article_content{
         height: 70vh;
     }
 
-    .article_content_1 ,.article_content_2{
-        
+    .article_content_1 , .article_content_2{
        display: flex;
        align-items: center;
        justify-content: center;

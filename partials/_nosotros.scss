@@ -1,0 +1,27 @@
+.img_hero3{
+    width: 100%;
+    height: 30vh;
+    background-image: url(../img/cocina_peruana_andina_a.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.article_team{
+    padding: 0;
+
+    .nombre , .parrafo_article  {
+        margin: 15px auto;
+        width: 60%;
+    }
+
+    .img_profile{
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-top: 15px;
+    }
+    
+}

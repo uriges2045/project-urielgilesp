@@ -1,0 +1,40 @@
+.footer{
+    width: 100%;
+    background-color: $footerColor;
+    padding: 30px 30px;
+    width: 100%;
+
+    .pie_pagina {
+    
+        line-height: 30px;
+        padding-bottom: 20px;
+
+        .text-md-start{
+            padding: 0;
+            list-style: none;
+
+            .link_f {
+                text-decoration: none;
+                color: $headerColorT;
+            
+            }
+            
+            .link_f:hover {
+                color: $letrasLinks;
+            }
+            
+        }
+        
+        
+    }
+}
+
+.copyright {
+    height: 5vh;
+    width: 100%;
+    font-size: 2px;
+    background-color: $copyrightColor;
+    line-height: 20px;
+    color: $letrasLinks;
+    text-align: center;
+}

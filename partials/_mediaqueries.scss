@@ -1,0 +1,13 @@
+@media (min-width:960px){
+
+    .article_content{
+        height: 70vh;
+    }
+
+    .article_content_1 , .article_content_2{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    
+}

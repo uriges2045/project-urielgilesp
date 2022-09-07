@@ -1,0 +1,40 @@
+.header{
+    width: 100%;
+    background-color: $headerColorT;
+    margin: 0;
+
+    .logo{
+        height: 160px;
+        width: 160px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .information{
+
+        line-height: 30px;
+        list-style: none;
+        margin: auto;
+    }
+    
+ }
+
+ .navbar{
+    position: sticky;
+    z-index: 100;
+    width: 100%;
+    top: 0.5px;
+
+    .navbar-toggler{
+    
+        background-color: $headerColorB;
+        margin: 0 auto;
+        width: 150px;
+    
+    }
+    .collapse a{
+        display: inline-block;
+        color: $letrasLink;
+    }
+}
+
